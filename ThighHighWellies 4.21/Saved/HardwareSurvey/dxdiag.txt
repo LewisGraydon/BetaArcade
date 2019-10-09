@@ -1,9 +1,9 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 10/3/2019, 11:07:28
-             Machine name: TU45374
-               Machine Id: {4868EF8C-5587-43C6-B32C-03E05CFE17CA}
+      Time of this report: 10/9/2019, 10:32:52
+             Machine name: TU45330
+               Machine Id: {D29B23A3-7011-4162-8330-22380B35AE55}
          Operating System: Windows 10 Enterprise 64-bit (10.0, Build 17763) (17763.rs5_release.180914-1434)
                  Language: English (Regional Setting: English)
       System Manufacturer: Hewlett-Packard
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz (12 CPUs), ~3.5GHz
                    Memory: 32768MB RAM
       Available OS Memory: 32684MB RAM
-                Page File: 5991MB used, 31812MB available
+                Page File: 6990MB used, 30558MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -29,6 +29,7 @@ DxDiag Notes
       Display Tab 1: No problems found.
       Display Tab 2: No problems found.
         Sound Tab 1: No problems found.
+        Sound Tab 2: No problems found.
           Input Tab: No problems found.
 
 --------------------
@@ -59,9 +60,9 @@ Display Devices
        Shared Memory: 16342 MB
         Current Mode: 1920 x 1200 (32 bit) (59Hz)
          HDR Support: Not Supported
-    Display Topology: Extend
+    Display Topology: Clone
  Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
-     Color Primaries: Red(0.644531,0.335938), Green(0.328125,0.615234), Blue(0.146484,0.054688), White Point(0.313477,0.329102)
+     Color Primaries: Red(0.639648,0.330078), Green(0.299805,0.599609), Blue(0.149414,0.059570), White Point(0.312500,0.329102)
    Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
         Monitor Name: Generic PnP Monitor
        Monitor Model: HP E242
@@ -70,6 +71,14 @@ Display Devices
          Output Type: Displayport External
 Monitor Capabilities: HDR Not Supported
 Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
+      Advanced Color: Not Supported
+        Monitor Name: Generic PnP Monitor
+       Monitor Model: Extron HDMI
+          Monitor Id: EXN0000
+         Native Mode: 1280 x 720(p) (60.000Hz)
+         Output Type: DVI
+Monitor Capabilities: Unknown
+Display Pixel Format: Unknown
       Advanced Color: Not Supported
          Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c1a085cc86772d3f\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c1a085cc86772d3f\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c1a085cc86772d3f\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c1a085cc86772d3f\nvldumdx.dll
  Driver File Version: 23.21.0013.9135 (English)
@@ -165,7 +174,7 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
        Shared Memory: 16342 MB
         Current Mode: 1920 x 1200 (32 bit) (59Hz)
          HDR Support: Not Supported
-    Display Topology: Extend
+    Display Topology: Clone
  Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
      Color Primaries: Red(0.644531,0.335938), Green(0.328125,0.615234), Blue(0.146484,0.054688), White Point(0.313477,0.329102)
    Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
@@ -260,9 +269,34 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
 -------------
 Sound Devices
 -------------
-            Description: Speakers (Realtek High Definition Audio)
+            Description: Extron HDMI (NVIDIA High Definition Audio)
  Default Sound Playback: Yes
  Default Voice Playback: Yes
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0070&SUBSYS_19DA1396&REV_1001
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: nvhda64v.sys
+         Driver Version: 1.03.0038.0016 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 18/03/2019 00:00:00, 228608 bytes
+            Other Files: 
+        Driver Provider: NVIDIA Corporation
+         HW Accel Level: Basic
+              Cap Flags: 0xF1F
+    Min/Max Sample Rate: 100, 200000
+Static/Strm HW Mix Bufs: 1, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+            Description: Speakers (Realtek High Definition Audio)
+ Default Sound Playback: No
+ Default Voice Playback: No
             Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0221&SUBSYS_103C212A&REV_1000
         Manufacturer ID: 1
              Product ID: 100
@@ -288,6 +322,16 @@ Sensaura(tm) ZoomFX(tm): No
 ---------------------
 Sound Capture Devices
 ---------------------
+            Description: Microphone (USB audio CODEC)
+  Default Sound Capture: Yes
+  Default Voice Capture: Yes
+            Driver Name: USBAUDIO.sys
+         Driver Version: 10.00.17763.0001 (English)
+      Driver Attributes: Final Retail
+          Date and Size: 9/15/2018 08:28:15, 191488 bytes
+              Cap Flags: 0x1
+           Format Flags: 0xFFFFF
+
 ---------------------
 Video Capture Devices
 Number of Devices: 0
@@ -307,18 +351,6 @@ Vendor/Product ID: n/a
 Vendor/Product ID: n/a
         FF Driver: n/a
 
-      Device Name: HP Elite USB Keyboard
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x03F0, 0x034A
-        FF Driver: n/a
-
-      Device Name: HP Elite USB Keyboard
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x03F0, 0x034A
-        FF Driver: n/a
-
       Device Name: Wacom Tablet
          Attached: 1
     Controller ID: 0x0
@@ -329,6 +361,24 @@ Vendor/Product ID: 0x056A, 0x0303
          Attached: 1
     Controller ID: 0x0
 Vendor/Product ID: 0x056A, 0x0303
+        FF Driver: n/a
+
+      Device Name: Controller (XBOX 360 For Windows)
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x045E, 0x028E
+        FF Driver: n/a
+
+      Device Name: HP Elite USB Keyboard
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x03F0, 0x034A
+        FF Driver: n/a
+
+      Device Name: HP Elite USB Keyboard
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x03F0, 0x034A
         FF Driver: n/a
 
       Device Name: Wacom Tablet
@@ -350,7 +400,7 @@ USB Devices
 | 
 +-+ Wacom Tablet
 | | Vendor/Product ID: 0x056A, 0x0303
-| | Location: Port_#0003.Hub_#0003
+| | Location: Port_#0005.Hub_#0003
 | | Matching Device ID: USB\VID_056A&PID_0303
 | | Upper Filters: mshidkmdf
 | | Service: WacHidRouterPro
@@ -367,36 +417,13 @@ USB Devices
 | | | Driver: mouclass.sys, 9/15/2018 08:28:19, 61240 bytes
 | | | Driver: wdfcoinstaller01009.dll, 5/10/2019 22:26:55, 1721576 bytes
 | | 
-+-+ USB Composite Device
-| | Vendor/Product ID: 0x03F0, 0x034A
-| | Location: Port_#0011.Hub_#0003
-| | Matching Device ID: USB\COMPOSITE
-| | Service: usbccgp
-| | Driver: usbccgp.sys, 9/15/2018 08:28:19, 179000 bytes
-| | 
-| +-+ USB Input Device
-| | | Vendor/Product ID: 0x03F0, 0x034A
-| | | Location: 0000.0014.0000.011.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 9/15/2018 08:28:19, 43520 bytes
-| | | Driver: hidclass.sys, 9/25/2019 16:25:33, 209920 bytes
-| | | Driver: hidparse.sys, 5/13/2019 10:35:51, 46080 bytes
-| | | 
-| | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x03F0, 0x034A
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 3/12/2019 09:29:46, 44544 bytes
-| | | | Driver: kbdclass.sys, 9/15/2018 08:28:19, 67896 bytes
-| | 
 +-+ USB Input Device
 | | Vendor/Product ID: 0x03F0, 0x094A
-| | Location: Port_#0012.Hub_#0003
+| | Location: Port_#0011.Hub_#0003
 | | Matching Device ID: USB\Class_03&SubClass_01
 | | Service: HidUsb
 | | Driver: hidusb.sys, 9/15/2018 08:28:19, 43520 bytes
-| | Driver: hidclass.sys, 9/25/2019 16:25:33, 209920 bytes
+| | Driver: hidclass.sys, 9/5/2019 16:18:09, 209920 bytes
 | | Driver: hidparse.sys, 5/13/2019 10:35:51, 46080 bytes
 | | 
 | +-+ HID-compliant mouse
@@ -405,6 +432,29 @@ USB Devices
 | | | Service: mouhid
 | | | Driver: mouhid.sys, 9/15/2018 08:28:19, 34816 bytes
 | | | Driver: mouclass.sys, 9/15/2018 08:28:19, 61240 bytes
+| | 
++-+ USB Composite Device
+| | Vendor/Product ID: 0x03F0, 0x034A
+| | Location: Port_#0012.Hub_#0003
+| | Matching Device ID: USB\COMPOSITE
+| | Service: usbccgp
+| | Driver: usbccgp.sys, 9/15/2018 08:28:19, 179000 bytes
+| | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x03F0, 0x034A
+| | | Location: 0000.0014.0000.012.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03&SubClass_01
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 9/15/2018 08:28:19, 43520 bytes
+| | | Driver: hidclass.sys, 9/5/2019 16:18:09, 209920 bytes
+| | | Driver: hidparse.sys, 5/13/2019 10:35:51, 46080 bytes
+| | | 
+| | +-+ HID Keyboard Device
+| | | | Vendor/Product ID: 0x03F0, 0x034A
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | Service: kbdhid
+| | | | Driver: kbdhid.sys, 3/12/2019 09:29:46, 44544 bytes
+| | | | Driver: kbdclass.sys, 9/15/2018 08:28:19, 67896 bytes
 
 ----------------
 Gameport Devices
@@ -418,13 +468,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 257.9 GB
+ Free Space: 241.8 GB
 Total Space: 487.4 GB
 File System: NTFS
       Model: MTFDDAK512MBF-1AN1ZABHA
 
       Drive: D:
- Free Space: 1906.8 GB
+ Free Space: 1905.7 GB
 Total Space: 1907.7 GB
 File System: NTFS
       Model: ST2000DM001-1ER164
@@ -957,6 +1007,9 @@ CCITT u-Law,0x00200000,1,1,quartz.dll,10.00.17763.0001
 AC-3 ACM Codec,0x00200000,1,1,quartz.dll,10.00.17763.0001
 MPEG Layer-3,0x00200000,1,1,quartz.dll,10.00.17763.0001
 
+Audio Capture Sources:
+Microphone (USB audio CODEC),0x00200000,0,0,qcap.dll,10.00.17763.0001
+
 PBDA CP Filters:
 PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.17763.0737
 PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.17763.0737
@@ -970,9 +1023,13 @@ WDM Streaming Capture Devices:
 Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,10.00.17763.0001
 Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,10.00.17763.0001
 Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,10.00.17763.0001
+USB audio CODEC,0x00200000,3,2,ksproxy.ax,10.00.17763.0001
+,0x00000000,0,0,,
 
 WDM Streaming Rendering Devices:
 Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,10.00.17763.0001
+USB audio CODEC,0x00200000,3,2,ksproxy.ax,10.00.17763.0001
+,0x00000000,0,0,,
 
 BDA Network Providers:
 Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,10.00.17763.0001
@@ -992,10 +1049,12 @@ WDM Streaming Communication Transforms:
 Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,10.00.17763.0001
 
 Audio Renderers:
-Speakers (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.17763.0001
+Extron HDMI (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.17763.0001
 Default DirectSound Device,0x00800000,1,0,quartz.dll,10.00.17763.0001
 Default WaveOut Device,0x00200000,1,0,quartz.dll,10.00.17763.0001
 DirectSound: Speakers (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.17763.0001
+DirectSound: Extron HDMI (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.17763.0001
+Speakers (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.17763.0001
 
 
 ----------------------------
@@ -1411,94 +1470,94 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 1407747373434718985, type 4
-Event Name: APPCRASH
+Fault bucket , type 0
+Event Name: ShellViewReentered
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: svchost.exe_AppReadiness
-P2: 10.0.17763.1
-P3: b900eeff
-P4: PGHook.dll
-P5: 5.2.21.0
-P6: 5b76d269
-P7: c00000fd
-P8: 0000000000090066
+P1: Explorer.EXE
+P2: 10.0.17763.719
+P3: 97f3f3b9
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
 P9: 
 P10: 
 
 
 +++ WER1 +++:
-Fault bucket 1407747373434718985, type 4
-Event Name: APPCRASH
+Fault bucket , type 0
+Event Name: ShellViewReentered
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: svchost.exe_AppReadiness
-P2: 10.0.17763.1
-P3: b900eeff
-P4: PGHook.dll
-P5: 5.2.21.0
-P6: 5b76d269
-P7: c00000fd
-P8: 0000000000090066
+P1: Explorer.EXE
+P2: 10.0.17763.719
+P3: 97f3f3b9
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
 P9: 
 P10: 
 
 
 +++ WER2 +++:
-Fault bucket 2183209414868304996, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 1474811588607959287, type 4
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: maya.exe
-P2: 19.1.0.8580
-P3: 10.0.17763.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: wmiprvse.exe
+P2: 10.0.17763.1
+P3: dd9b741c
+P4: ccmcore.dll
+P5: 5.0.8790.1000
+P6: 5c6fa064
+P7: c0000005
+P8: 00000000000369e8
 P9: 
 P10: 
 
 
 +++ WER3 +++:
-Fault bucket 2046721985987997209, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 1474811588607959287, type 4
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: toolbag.exe
-P2: 3.0.0.0
-P3: 10.0.17763.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: wmiprvse.exe
+P2: 10.0.17763.1
+P3: dd9b741c
+P4: ccmcore.dll
+P5: 5.0.8790.1000
+P6: 5c6fa064
+P7: c0000005
+P8: 00000000000369e8
 P9: 
 P10: 
 
 
 +++ WER4 +++:
-Fault bucket 2277881427536224350, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 1617382840631406869, type 5
+Event Name: StoreAgentInstallFailure1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 3dsmax.exe
-P2: 21.0.0.845
-P3: 10.0.17763.2.0.0
-P4: 
-P5: 
-P6: 
+P1: Update;ScanForUpdatesForUser
+P2: 80070520
+P3: 17763
+P4: 740
+P5: Windows.Desktop
+P6: 1
 P7: 
 P8: 
 P9: 
@@ -1506,18 +1565,18 @@ P10:
 
 
 +++ WER5 +++:
-Fault bucket 1306217166365449043, type 5
+Fault bucket 1691494494383114229, type 5
 Event Name: StoreAgentInstallFailure1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;ScanForUpdates
-P2: 80246013
+P1: Update;ScanForUpdatesForUser
+P2: 80070520
 P3: 17763
 P4: 740
 P5: Windows.Desktop
-P6: V
+P6: P
 P7: 
 P8: 
 P9: 
@@ -1525,18 +1584,18 @@ P10:
 
 
 +++ WER6 +++:
-Fault bucket , type 0
-Event Name: StoreAgentInstallFailure1
+Fault bucket 1558194940857344355, type 5
+Event Name: StoreAgentAcquireLicenseFailure1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;ScanForUpdates
-P2: 80246013
+P1: Update;ScanForUpdatesForUser
+P2: 80070520
 P3: 17763
 P4: 740
 P5: Windows.Desktop
-P6: V
+P6: 2
 P7: 
 P8: 
 P9: 
@@ -1544,18 +1603,18 @@ P10:
 
 
 +++ WER7 +++:
-Fault bucket 1220737233882362124, type 5
-Event Name: StoreAgentInstallFailure1
+Fault bucket 1510353788988612537, type 5
+Event Name: StoreAgentAcquireLicenseFailure1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;ScanForUpdates
-P2: 80246013
+P1: Update;ScanForUpdatesForUser
+P2: 80070520
 P3: 17763
 P4: 740
 P5: Windows.Desktop
-P6: L
+P6: W
 P7: 
 P8: 
 P9: 
@@ -1563,18 +1622,18 @@ P10:
 
 
 +++ WER8 +++:
-Fault bucket , type 0
-Event Name: StoreAgentInstallFailure1
+Fault bucket 1558194940857344355, type 5
+Event Name: StoreAgentAcquireLicenseFailure1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;ScanForUpdates
-P2: 80246013
+P1: Update;ScanForUpdatesForUser
+P2: 80070520
 P3: 17763
 P4: 740
 P5: Windows.Desktop
-P6: L
+P6: 2
 P7: 
 P8: 
 P9: 
@@ -1582,18 +1641,18 @@ P10:
 
 
 +++ WER9 +++:
-Fault bucket 1679151783577690413, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 2250939035640208111, type 5
+Event Name: StoreAgentAcquireLicenseFailure1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: ZBrush.exe
-P2: 2019.1.2.0
-P3: 10.0.17763.2.0.0
-P4: 
-P5: 
-P6: 
+P1: Update;ScanForUpdatesForUser
+P2: 80070520
+P3: 17763
+P4: 740
+P5: Windows.Desktop
+P6: 6
 P7: 
 P8: 
 P9: 
