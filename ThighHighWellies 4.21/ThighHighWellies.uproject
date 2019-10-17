@@ -1,16 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{F0C7C651-4278-3332-180C-7080781ADA2C}",
+	"EngineAssociation": "4.21",
 	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "ThighHighWellies",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		}
-	]
+	"Description": ""
 }
